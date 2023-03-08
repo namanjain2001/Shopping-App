@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon server.js -e js",
+    "dev": "nodemon app.js -e js",
     "data:import": "node seeder.js",
     "data:destroy": "node seeder.js -d"
   },
